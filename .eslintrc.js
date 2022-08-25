@@ -7,6 +7,8 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier',
+    'plugin:json/recommended',
+    'plugin:prettier/recommended',
   ],
   overrides: [],
   parser: '@typescript-eslint/parser',
@@ -14,7 +16,12 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint'],
+  plugins: [
+    '@typescript-eslint',
+    'eslint-plugin-prettier',
+    'eslint-plugin-json',
+  ],
+
   rules: {
     '@typescript-eslint/no-unused-vars': 'error',
     // to enforce using type for object type definitions, can be type or interface
