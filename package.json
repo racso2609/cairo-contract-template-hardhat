@@ -6,7 +6,8 @@
   "scripts": {
     "test": "npx hardhat test",
     "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
-    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "compile": "npx hardhat starknet-compile"
   },
   "repository": {
     "type": "git",

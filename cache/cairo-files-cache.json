@@ -1,1 +1,7 @@
-{}
+{
+ "/home/racso/Programming/cairo/first-contract-hardhat/contracts/Nft.cairo": {
+  "contentHash": "c743db0580bfeed5c7c979e8c1b806ab43ecd0400036733104b5754db022c54d",
+  "outputPath": "/home/racso/Programming/cairo/first-contract-hardhat/starknet-artifacts/contracts/Nft.cairo/Nft.json",
+  "abiPath": "/home/racso/Programming/cairo/first-contract-hardhat/starknet-artifacts/contracts/Nft.cairo/Nft_abi.json"
+ }
+}
